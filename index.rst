@@ -1,6 +1,8 @@
 INS10000 Developer Manual
 ==========================
 
+Welcome to the INS1000 Manual.
+
 Contents
 --------
 
