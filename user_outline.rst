@@ -3,6 +3,8 @@ Set Up & Software Guide
 
 1. Introduction
 
+This guide shows how to set up and install the INS1000 rover, and use the GUI.
+
 2. Installation Guide 
 3. Connection
 4. View
