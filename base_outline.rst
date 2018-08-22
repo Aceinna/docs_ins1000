@@ -23,7 +23,7 @@ The antenna should be mounted to an outdoor location such as roof with clear sky
 
 .. note::
 
-    The Power/Ethernet cable has a red mark on it.  This red dot faces up.  To remove the cable just pull back lightly on the connector shell.
+    The Power/Ethernet cable connector has a red mark on it.  Match the red dot to the red mark on the mating connector shell.  To remove the cable just pull back lightly on the connector shell.
 
 
 3. Configuration
