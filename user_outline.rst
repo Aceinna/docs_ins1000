@@ -22,13 +22,13 @@ To connect to the system, use the “Com Port Setting” dialog, shown in Figure
 
 To choose a port, first click the [Refresh] button to get the list of available ports and then select a port from the drop-down list (shown in Figure 2). The baud rate is fixed as 230400 now. After all are set, click the [Connect] button. Please try another port if the message “Cannot open the port” shows up.
 
-.. figure:: media/rover/Connection_dialog.PNG
+.. figure:: media/rover/Connection_dialog.png
    :scale: 100 %
    :align: center
 
    Figure 1: Connection dialog
 
-.. figure:: media/rover/Port_selection.PNG
+.. figure:: media/rover/Port_selection.png
    :scale: 100 %
    :align: center
 
@@ -42,7 +42,7 @@ To choose a port, first click the [Refresh] button to get the list of available 
 
 At the bottom-right corner of the interface, there are four indicators for the status of IMU, GNSS, PPS and NTRIP subsystems shown in Figure 3. A flashing green circle means the subsystem is on. Normally, IMU and GNSS turn on right after the power is supplied, and PPS turns on after the time is resolved with GNSS measurements. Users may be able to see the navigation data output with enough satellite data. NTRIP indicator will be on whenever the system receives information from the base station. The user can use these four indicators to see if the system is working properly or not.
 
-.. figure:: media/rover/Subsystems_status_indicators.PNG
+.. figure:: media/rover/Subsystems_status_indicators.png
    :scale: 100 %
    :align: center
 
@@ -53,7 +53,7 @@ At the bottom-right corner of the interface, there are four indicators for the s
 
 At the bottom-left corner of the interface, the user can see the product ID and the engine version of the system as shown in Figure 4.
 
-.. figure:: media/rover/Product_ID_and_engine_version.PNG
+.. figure:: media/rover/Product_ID_and_engine_version.png
    :scale: 100 %
    :align: center
 
@@ -64,7 +64,7 @@ At the bottom-left corner of the interface, the user can see the product ID and 
 
 Navigation information dialog (shown in Figure 5) displays the Kalman Filter navigation message from the system, including time, position, velocity and attitude information. This message comes in 1 Hz synchronized with the GNSS measurements. For more details about the message, please refer to AceinnaNav Reference Manual. The user can reopen the dialog in “View > Navigation Info” menu if it is closed.
 
-.. figure:: media/rover/Navigation_information_dialog.PNG
+.. figure:: media/rover/Navigation_information_dialog.png
    :scale: 100 %
    :align: center
 
@@ -75,7 +75,7 @@ Navigation information dialog (shown in Figure 5) displays the Kalman Filter nav
 
 GNSS signal status dialog (shown in Figure 6) displays the satellite signal strength information obtained from the GNSS observables. For each satellite it shows the satellite system, unique satellite number, and the L1/L2 signal strength. For more details about the message, please refer to AceinnaNav Reference Manual. The user can reopen the dialog in “System -> SV Signal” menu if it’s closed.
 
-.. figure:: media/rover/GNSS_signal_status.PNG
+.. figure:: media/rover/GNSS_signal_status.png
    :scale: 100 %
    :align: center
 
@@ -93,13 +93,13 @@ The direction of the axes of an IMU can be identified using the accelerometer si
 
 Trajectory view dialog (shown in Figure 8) displays the current trajectory. The software starts recording the trajectory when the dialog is open. When the dialog is closed, the trajectory will be cleared.
 
-.. figure:: media/rover/IMU_data_graphs.PNG
+.. figure:: media/rover/IMU_data_graphs.png
    :scale: 100 %
    :align: center
 
    Figure 7: IMU data graphs
 
-.. figure:: media/rover/Trajectory_view_dialog.PNG
+.. figure:: media/rover/Trajectory_view_dialog.png
    :scale: 100 %
    :align: center
 
@@ -110,7 +110,7 @@ Trajectory view dialog (shown in Figure 8) displays the current trajectory. The 
 
 The user can control the behavior of the navigator using the control software. After connecting to the system, choose “System > User Configure” from the menu (shown in Figure 9).
 
-.. figure:: media/rover/User_configuration_menu.PNG
+.. figure:: media/rover/User_configuration_menu.png
    :scale: 100 %
    :align: center
 
@@ -126,7 +126,7 @@ The user can do the followings in the navigation output control tab shown in Fig
 - Choose ICD messages for output. Pay specific attention when choosing high-rate outputs as outputting multiple high-rate messages can saturate the communication port.
 - Check the current output position offset and whether the static position pinning is enabled in the system with the [Query] button.
 
-.. figure:: media/rover/Navigation_output_control_tab.PNG
+.. figure:: media/rover/Navigation_output_control_tab.png
    :scale: 100 %
    :align: center
 
@@ -141,7 +141,7 @@ The user can enable initialization of heading from the GNSS velocity. To activat
 
 The navigation error keeps growing if no aiding source is available. The system will stop outputting the navigation results if the dead-reckoning time exceeds the maximum that the user specifies.
 
-.. figure:: media/rover/Navigation_control_tab.PNG
+.. figure:: media/rover/Navigation_control_tab.png
    :scale: 100 %
    :align: center
 
@@ -155,7 +155,7 @@ In the “IMU” tab (shown in Figure 12), the user can do the followings :
 - Specify the matrix for the transformation from the IMU frame to the user body frame.
 - Check the current transformation matrix of the system with the [Query IMU matrix] button.
 
-.. figure:: media/rover/IMU_configuration_tab.PNG
+.. figure:: media/rover/IMU_configuration_tab.png
    :scale: 100 %
    :align: center
 
@@ -171,7 +171,7 @@ In the “GNSS” tab (shown in Figure 13), the user can do the followings :
 - Check the current antenna lever-arms of the system with the [Query lever-arm] button.
 - Check the antenna separation of the system with the [Query] button.
 
-.. figure:: media/rover/GNSS_configuration_tab.PNG
+.. figure:: media/rover/GNSS_configuration_tab.png
    :scale: 100 %
    :align: center
 
@@ -184,13 +184,13 @@ The user can configure the NTRIP client settings using the NTRIP Client settings
 
 Previous NTRIP settings will be stored in the table below. The user can reuse previous settings by double-clicking that particular setting.
 
-.. figure:: media/rover/NTRIP_client_settings_dialog.PNG
+.. figure:: media/rover/NTRIP_client_settings_dialog.png
    :scale: 100 %
    :align: center
 
    Figure 14: NTRIP client settings dialog
 
-.. figure:: media/rover/NTRIP_Client_menu.PNG
+.. figure:: media/rover/NTRIP_Client_menu.png
    :scale: 100 %
    :align: center
 
@@ -201,13 +201,13 @@ Previous NTRIP settings will be stored in the table below. The user can reuse pr
 
 The user can update the firmware of the system by uploading the latest firmware file provided by Aceinna. To upload the firmware file, choose “System > Firmware Update” (shown in Figure 16). In the file selection dialog shown in Figure 17, browse the firmware file and click the [Upload] button. Firmware file upload will take a few minutes. Please wait until the “Firmware Update finished” message shows up. The user can see the current progress at the bottom. To cancel the firmware update, close the “Upload File” dialog.
 
-.. figure:: media/rover/Firmware_update_menu.PNG
+.. figure:: media/rover/Firmware_update_menu.png
    :scale: 100 %
    :align: center
 
    Figure 16: Firmware update menu
 
-.. figure:: media/rover/Firmware_file_selection.PNG
+.. figure:: media/rover/Firmware_file_selection.png
    :scale: 100 %
    :align: center
 
@@ -227,7 +227,7 @@ Before logging, make sure that the software has opened the right port and the st
 
 To choose a folder to save the data, click the [Browse] button. To log the data, click [Start Export] button in Figure 18. To finish logging, click the [Stop Export] button then a message about the saved data file name will show up. The file name convention is yyyy_mm_dd_HH_MM_SS.dat, e.g. 2018_02_09_02_36_34.dat.
 
-.. figure:: media/rover/Data_export_dialog.PNG
+.. figure:: media/rover/Data_export_dialog.png
    :scale: 100 %
    :align: center
 
@@ -244,7 +244,7 @@ The user can choose to convert the attitude quaternion to roll, pitch, and headi
 
 The user can also set the output decimation rate to adjust the density of the points in the KML trajectory file. For example, entering “30” makes the decoder output to the KML file at every 30 points.
 
-.. figure:: media/rover/Data_decode_dialog.PNG
+.. figure:: media/rover/Data_decode_dialog.png
    :scale: 100 %
    :align: center
 
@@ -255,7 +255,7 @@ The user can also set the output decimation rate to adjust the density of the po
 
 The user can send Zero Velocity Update (ZUPT) messages when the vehicle is not moving. Specifically, this will improve the navigation system where the GNSS signal is degraded. The user can set and send this message using the Zero Velocity Update dialog at the “Tools > Zero Velocity Update” menu (shown in Figure 20). After setting the horizontal and vertical standard deviation, click [Activate] button to keep sending the message containing these two values. Click [Deactivate] button to stop sending. If both values are set to zero, the message cannot be sent.
 
-.. figure:: media/rover/Zero_Velocity_Update_dialog.PNG
+.. figure:: media/rover/Zero_Velocity_Update_dialog.png
    :scale: 100 %
    :align: center
 
@@ -266,7 +266,7 @@ The user can send Zero Velocity Update (ZUPT) messages when the vehicle is not m
 
 The user can send a static heading event message to initialize the inertial navigator when the position is available from the GNSS receivers but the heading initialization has difficulties due to degraded GNSS signals. To send the message, the user can use the Static Heading Event dialog at the “Tools > Static Heading Event” menu (shown in Figure 21). After setting the heading, ZUPT RMS, and heading RMS, click [Activate] button to keep sending the message containing these values. Click [Deactivate] button to stop sending. If both of the ZUPT RMS, and heading RMS are set to zero, the message cannot be sent.
 
-.. figure:: media/rover/Static_Heading_Event_dialog.PNG
+.. figure:: media/rover/Static_Heading_Event_dialog.png
    :scale: 100 %
    :align: center
 
