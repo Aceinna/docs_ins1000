@@ -1,4 +1,4 @@
-INS10000 Developer Manual
+INS1000 Developer Manual
 ==========================
 
 Welcome to the INS1000 Manual.  This manual provides information on how to set up INS1000 RTK system including both 
