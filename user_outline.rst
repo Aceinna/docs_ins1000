@@ -280,7 +280,7 @@ The system internally stores the raw sensor data and navigation data, of which t
 - Raw sensor data: raw_wwww_ssssss.dat
 - Navigation data: nav_wwww_ssssss.dat
 
-where “wwww” and “ssssss” correspond to the GPS week number and seconds of the week at the start of the mission.
+Where “wwww” and “ssssss” correspond to the GPS week number and seconds of the week at the start of the mission.
 
 Users can download the internal data using any ftp client.
 

@@ -9,7 +9,7 @@ The INS1000 GNSS Base Station is a ruggedized dual-frequency (L1/L2) multi-const
 2. Setting Up the Base Station
 ------------------------------
 
-.. image:: media/base_connectors.png  
+.. image:: media/base/base_connectors.png  
     :align: center
     :scale: 50%
 
@@ -43,7 +43,7 @@ Locate the GNSS basestation software.
     -  Select the corresponding COMPORT from the drop-down tab. 
     -  Click [Connect] button.
 
-.. image:: media/connect.png
+.. image:: media/base/connect.png
     :align: center
     :scale: 50%
 
@@ -54,7 +54,7 @@ Locate the GNSS basestation software.
 - Unclick/Uncheck [Average Position] 
 - Click [Copy to ref Position] Button
 
-.. image:: media/config.png
+.. image:: media/base/config.png
     :align: center
     :scale: 50%
 
@@ -62,7 +62,7 @@ Locate the GNSS basestation software.
 - Click [Set] button to send the position to base station receiver.
 - Click [Query] button to double check or check the current position stored inside the base station receiver.
 
-.. image:: media/setposition.png
+.. image:: media/base/setposition.png
     :align: center
     :scale: 50%
 
@@ -71,7 +71,7 @@ Locate the GNSS basestation software.
  
     - This step only need to be done once when the base station is first setup or the format has to be changed
 
-.. image:: media/setoutput.png
+.. image:: media/base/setoutput.png
     :align: center
     :scale: 50%
 
@@ -79,7 +79,7 @@ Locate the GNSS basestation software.
 - After filling in the server host information, Click [Set] button.
 - You can also Click [Query] button to check the currentserver host information stored inside the base station receiver through the Ethernet/Modem
   
-.. image:: media/ntrip.png
+.. image:: media/base/ntrip.png
     :align: center
     :scale: 50%
 
@@ -97,7 +97,7 @@ To view Satellite details:
 1. Double Click one satellite and it shows the elevation and azimuth information.
 2. Click that satellite and it the elevation and azimuth information will disappear.
 
-.. image:: media/skyview.png
+.. image:: media/base/skyview.png
     :align: center
     :scale: 50%
 
@@ -109,7 +109,7 @@ Shows the current position after opening the Position View.
 1. After clicking the [Average Position] checkbox in [Settings] -> [Surveying] Position View also shows the average position in real time.
 2. Average Position is represented with a yellow square within the graph.
 
-.. image:: media/positionview.png
+.. image:: media/base/positionview.png
     :align: center
     :scale: 50%
 
@@ -121,6 +121,6 @@ Export data allows you to save a log file of the Base Station.
 1. Choose a directory to save the log file of Base Station and then click [Start Export].
 2. Then Click [Stop Export] to finish the completed Export.
 
-.. image:: media/export.png
+.. image:: media/base/export.png
     :align: center
     :scale: 50%
