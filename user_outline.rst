@@ -4,7 +4,7 @@ Set Up & Software Guide
 1. Introduction
 ----------------
 
-This guide shows how to set up and install the INS1000 rover, and use the GUI.Please read it carefully.
+This guide shows how to set up and install the INS1000 rover, and use the GUI. Please read it carefully.
 
 AceinnaNav Control Software (ACS) is a graphical user interface for the AceinnaNav integrated navigation system. It displays continuous position, velocity, attitude, and trajectory information from the system. Additionally, it also provides tools to configure the system and log output data from the system.
 
@@ -152,7 +152,8 @@ The navigation error keeps growing if no aiding source is available. The system 
 
 In the “IMU” tab (shown in Figure 12), the user can do the followings :
 
-- Specify the matrix for the transformation from the IMU frame to the user body frame.
+- Specify the matrix for the transformation from the IMU frame to the user body frame. Please refer to the detailed  `Transformation Matrix <ref_outline.html#the-imu-frame-and-the-body-frame>`_ in reference manual.
+
 - Check the current transformation matrix of the system with the [Query IMU matrix] button.
 
 .. figure:: media/rover/IMU_configuration_tab.png
@@ -163,6 +164,8 @@ In the “IMU” tab (shown in Figure 12), the user can do the followings :
 
 5.4. GNSS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Note that the lever-arms to be entered shall be in meters from the cross-mark on top of the IMU housing to each antenna’s phase center in the user body frame.
 
 In the “GNSS” tab (shown in Figure 13), the user can do the followings :
 
@@ -181,6 +184,8 @@ In the “GNSS” tab (shown in Figure 13), the user can do the followings :
 ------------------------
 
 The user can configure the NTRIP client settings using the NTRIP Client settings dialog (shown in Figure 14). To open the dialog, choose “System > NTRIP Client” from the menu shown in Figure 15. After all information is entered, press the [Set] button to configure the NTRIP client information. After seeing a message box with “Configuration finished”, restart the system to use the new NTRIP client settings. The user can also [Query] the current NTRIP client settings of the system. To get the settings, click the [Query] button in the NTRIP Client dialog and the information will show up.
+
+If user use "rtk2go.com" as server, the default password is "BETATEST".
 
 Previous NTRIP settings will be stored in the table below. The user can reuse previous settings by double-clicking that particular setting.
 
