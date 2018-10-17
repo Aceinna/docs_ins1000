@@ -1,4 +1,4 @@
-INS1000 installation manual
+System Setup Guide
 =======================
 
 1. Introduction
@@ -85,7 +85,7 @@ To control which messages are sent through ethernet cable, use the AceinnaNav Co
 
 All output data format are described in INS1000 Reference Manual.
 
-The INS1000 system only accepts input message through serial connection. All input data format can be found in section 7 and 8 in INS1000 Reference Manual.
+The INS1000 system accepts input message through serial connection and Ethernet connection. All input data format can be found in section 7 and 8 in INS1000 Reference Manual.
 
 5. RTK
 ------------------------
@@ -141,7 +141,16 @@ If the Attitude Mode is invalid, place the system under open sky and check if sa
 
    Figure 11 NTRIP indicator
 
+7. Interface Cable Pin Definition
+-----------------------------------
+The table below is the cable pin definition. Figure 12 is the sectional view of 19 position wiring cable.
 
+.. figure:: media/installation/connector.png
+   :scale: 50 %
+   :align: center
 
+.. figure:: media/installation/cable.png
+   :scale: 50 %
+   :align: center
 
-
+   Figure 12 Sectional View of 19 Position Wiring Cable

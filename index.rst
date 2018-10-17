@@ -17,4 +17,5 @@ Contents
     user_outline
     base_outline
     ref_outline
+    system_setup_guide
     
