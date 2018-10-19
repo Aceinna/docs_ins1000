@@ -667,7 +667,7 @@ This message is a high-rate real-time navigation output at the position defined 
     .. math::
         \phi =atan2(c_{32},c_{33})
     .. math::
-        \Theta = aran\begin{pmatrix}-c_{31}/\sqrt{c_{32}^{2}+c_{33}^{2}}\end{pmatrix}
+        \Theta = atan\begin{pmatrix}-c_{31}/\sqrt{c_{32}^{2}+c_{33}^{2}}\end{pmatrix}
     .. math::
         \psi = atan2(c_{21},c_{11})
 
