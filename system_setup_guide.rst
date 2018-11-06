@@ -1,5 +1,7 @@
 System Setup Guide
 =======================
+.. contents:: Contents
+    :local:
 
 1. Introduction
 ----------------

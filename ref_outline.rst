@@ -1,5 +1,7 @@
 Reference Manual
 =================
+.. contents:: Contents
+    :local:
 
 1. Introduction
 ------------------------
