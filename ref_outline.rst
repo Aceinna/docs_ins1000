@@ -1,5 +1,6 @@
 Reference Manual
 =================
+
 .. contents:: Contents
     :local:
 

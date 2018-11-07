@@ -7,8 +7,6 @@ Rover and Basestation.  The manual also documents output message and protocol of
 **Social:** `Twitter <https://twitter.com/MEMSsensortech>`_ |
 `Medium <https://medium.com/@mikehorton>`_ 
 
-Contents
---------------------------
 
 .. toctree::
     :caption: INS1000 Developer Manual
