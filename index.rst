@@ -15,3 +15,4 @@ Rover and Basestation.  The manual also documents output message and protocol of
     base_outline
     ref_outline
     system_setup_guide
+    
