@@ -1,9 +1,6 @@
 Set Up & Software Guide
 =======================
 
-.. contents:: Contents
-    :local:
-
 1. Introduction
 ----------------
 

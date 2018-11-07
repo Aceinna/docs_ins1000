@@ -1,9 +1,6 @@
 System Setup Guide
 =======================
 
-.. contents:: Contents
-    :local:
-
 1. Introduction
 ----------------
 INS1000 is an integrated navigation system consisting of an inertial measurement unit (IMU) and other sensors. Thus, it can continuously output the position, velocity and attitude information of the vehicle. This document explains how to connect the hardware, install, and configure the system.
