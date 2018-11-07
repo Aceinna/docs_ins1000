@@ -10,7 +10,6 @@ Rover and Basestation.  The manual also documents output message and protocol of
 .. toctree::
     :caption: INS1000 Developer Manual
     :maxdepth: 1
-    :hidden:
 
     user_outline
     base_outline
