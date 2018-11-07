@@ -129,12 +129,10 @@ latex_elements = {
     #
     # 'pointsize': '10pt',
 
-    'classoptions': ',openany,oneside',
-    'extraclassoptions': 'openany',
+    'classoptions': ',oneside'
     # Additional stuff for the LaTeX preamble.
     #
     # 'preamble': '',
-    'preamble': '\\addto\\captionsenglish{\\renewcommand{\\contentsname}{Table of contents}}'
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',

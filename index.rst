@@ -7,47 +7,12 @@ Rover and Basestation.  The manual also documents output message and protocol of
 **Social:** `Twitter <https://twitter.com/MEMSsensortech>`_ |
 `Medium <https://medium.com/@mikehorton>`_ 
 
-
-.. raw:: latex
-
-   \part{Set Up & Software Guide}
-
 .. toctree::
-    :caption: Set Up & Software Guide
+    :caption: INS1000 Developer Manual
     :maxdepth: 1
     :hidden:
 
     user_outline
-
-.. raw:: latex
-
-   \part{Basestation Guide}
-
-.. toctree::
-    :caption: Basestation Guide
-    :maxdepth: 1
-    :hidden:
-
     base_outline
-
-.. raw:: latex
-
-   \part{Reference Manual}
-
-.. toctree::
-    :caption: Reference Manual
-    :maxdepth: 1
-    :hidden:
-
     ref_outline
-
-.. raw:: latex
-
-   \part{System Setup Guide}
-
-.. toctree::
-    :caption: System Setup Guide
-    :maxdepth: 1
-    :hidden:
-
     system_setup_guide
