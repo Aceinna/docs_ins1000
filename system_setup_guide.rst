@@ -27,7 +27,7 @@ To power on the system, connect the power cable (shown in Figure 1) to a DC powe
 3.1 Serial Connection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The INS1000 system supports serial communication. To establish serial communication, use one Serial to USB cable to connect the COM-PORT of the data cable (shown in Figure 3) to your computer or other data receivers.
+The INS1000 system supports serial communication: both the base station and rover station could connect with PC tool with serial cable respectively, however, a null modem adaper for Male-Famale head of serial line transfer is a requirement. To establish serial communication, use one Serial to USB cable to connect the COM-PORT of the data cable (shown in Figure 3) to computer.
 
 
 .. figure:: media/installation/connect_the_serial_usb_to_computer.png
@@ -47,7 +47,7 @@ The INS1000 system outputs multiple data messages. To control which messages are
 3.2 Ethernet Connection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The INS1000 system supports ethernet communication. To establish ethernet communication, there are two kinds of connection:
+The INS1000 system supports ethernet communication,the RTK signal of rover station is synchronized via the ethernet cable on the left side. To establish ethernet communication, there are two kinds of connection:
 
 First, there is
 
