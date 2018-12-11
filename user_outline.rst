@@ -313,7 +313,7 @@ The table above is data format of python drive, and could be found in json file(
    :scale: 45 %
    :align: center
 
-   Figure 22: python_serial_tool_usage
+   Figure 22: python serial tool usage
 
 User could run the python script and then upload data to web application user interface,
 for the web application ui, https://developers.aceinna.com/maps
