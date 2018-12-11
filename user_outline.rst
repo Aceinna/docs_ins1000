@@ -278,7 +278,7 @@ The user can send a static heading event message to initialize the inertial navi
    Figure 21: Static Heading Event dialog
 
 9. Internal Data Download
-------------------------
+---------------------------
 
 The system internally stores the raw sensor data and navigation data, of which the naming convention is as follows:
 
@@ -291,10 +291,22 @@ Users can download the internal data using any ftp client.
 
 10. web application
 ------------------------
-The web application is composed of two parts, one part is python driver that log the data from serial port and upload to web application, another part is the web application.  
-For the python driver,user could download it from github. 
-The data format of python drive could be found in json file located in the path python-ins1000-master->setting.
-Python driver download address, https://github.com/Aceinna/python-ins1000
+The web application is composed of two parts, one part is python driver that log the data from serial port and upload to web application user interface, another part is the web application user interface.  
+For the python driver,user could download it from github. https://github.com/Aceinna/python-ins1000
+
++---------+--------------------------------------+
+| Flag    |            Description               |
++---------+--------------------------------------+
+| KFN     |Kalman Filter Navigation Message      |                              
++---------+--------------------------------------+
+| CNM     |Compact Navigation Message (High Rate)|                                
++---------+--------------------------------------+
+| SSS     |Satellite Signal Strength             |                  
++---------+--------------------------------------+
+| GSVM    |Repackaged GSV Message                |                
++---------+--------------------------------------+
+               
+The table above is data format of python drive, and could be found in json file(rover.json) located in the path python-ins1000-master->setting.
 
 
 .. figure:: media/rover/python_tool/python_serial_tool_usage.png
@@ -303,8 +315,8 @@ Python driver download address, https://github.com/Aceinna/python-ins1000
 
    Figure 22: python_serial_tool_usage
 
-User could run the python script and then upload data to web application,
-for the web application, https://developers.aceinna.com/maps
+User could run the python script and then upload data to web application user interface,
+for the web application ui, https://developers.aceinna.com/maps
 
 .. figure:: media/rover/python_tool/web_application_usage.png
   :scale: 38 %
@@ -313,7 +325,7 @@ for the web application, https://developers.aceinna.com/maps
   Figure 23: web application usage
 
 
-Press the button(Live Time Plot) on the web application, the image of live path of the rover station is shown on the screen. Meanwhile, the data will be logged synchronously in folder: python-ins1000-master->data.  
+Press the button(Live Time Plot) on the web application ui, the image of live path of the rover station is shown on the screen. Meanwhile, the data will be logged synchronously in folder: python-ins1000-master->data.  
 
 .. figure:: media/rover/python_tool/real_time_path_demo.png
  :scale: 50 %
