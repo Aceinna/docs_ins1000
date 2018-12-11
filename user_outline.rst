@@ -292,11 +292,13 @@ Users can download the internal data using any ftp client.
 10. web application
 ------------------------
 The web application is composed of two parts, one part is python driver that log the data from serial port and upload to web application, another part is the web application.  
-For the python driver,user could download it from github, https://github.com/Aceinna/python-ins1000
-The data format of python drive could be found in json file located in the path python-ins1000-master->setting
+For the python driver,user could download it from github. 
+The data format of python drive could be found in json file located in the path python-ins1000-master->setting.
+Python driver download address, https://github.com/Aceinna/python-ins1000
+
 
 .. figure:: media/rover/python_tool/python_serial_tool_usage.png
-   :scale: 50 %
+   :scale: 45 %
    :align: center
 
    Figure 22: python_serial_tool_usage
@@ -305,7 +307,7 @@ User could run the python script and then upload data to web application,
 for the web application, https://developers.aceinna.com/maps
 
 .. figure:: media/rover/python_tool/web_application_usage.png
-  :scale: 50 %
+  :scale: 38 %
   :align: center
 
   Figure 23: web application usage
