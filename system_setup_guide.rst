@@ -82,7 +82,7 @@ To control which messages are sent through ethernet cable, use the AceinnaNav Co
 
 
 
-3.3 The Null Modem Aapter 
+3.3 The Null Modem Adapter 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Both base station and rover station have serial port, please pay special attention to the DB9 serial wire sequece: Make sure that the transmitting device's Transmit (TX) signal is routed to the receiving device's Receive (RX) line. 
 Similarly, the receiving device's transmission line is routed to the communicating device's receiving line. 
