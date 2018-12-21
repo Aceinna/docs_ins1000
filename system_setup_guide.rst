@@ -80,6 +80,24 @@ To set up ethernet communication, users need to turn on DHCP of the ethenet inte
 
 To control which messages are sent through ethernet cable, use the AceinnaNav Control Software (see section 5.1 in AceinnaNav Control Software User Manual), or send User Configuration Setup message to the system (see section 8.4 in INS1000 Reference Manual).
 
+
+
+3.3 The Null Modem Aapter 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Both base station and rover station have serial port, please pay special attention to the DB9 serial wire sequece: Make sure that the transmitting device's Transmit (TX) signal is routed to the receiving device's Receive (RX) line. 
+Similarly, the receiving device's transmission line is routed to the communicating device's receiving line. 
+That is, a null modem adapter should be a wire sequence converter between DB9 female to DB9 female or DB9 male to male connection.
+note: user should choose the null modem adapter below in the left, not the mini gender changer in the right. After finished the serial port connection(base/rover station), user should verify the connection work normally with a serial tool(serial tool could receive data from rover/base station),then change to GUI.
+ 
+
+.. figure:: media/installation/db9_wire_conventer1.png
+   :scale: 50 %
+   :align: center
+
+   Figure 7: DB9 wire conventer
+
+
+
 4. Data Format
 ------------------------
 
@@ -98,7 +116,7 @@ The INS1000 system supports Real-Time Kinematic (RTK) positioning. To turn on RT
    :scale: 50 %
    :align: center
 
-   Figure 7 Connect the system to a router
+   Figure 8 Connect the system to a router
 
 - Configure NTRIP client of the system: Use NTRIP client setting dialog of the AceinnaNav Control Software to set the system to use an available RTK base station. See section 6 in AceinnaNav Control Software User Manual about how to use NTRIP client setting dialog.
 
@@ -115,7 +133,7 @@ Users can check the following to see if your system is working properly. The pro
    :scale: 50 %
    :align: center
 
-   Figure 8 Subsystem status indicators
+   Figure 9 Subsystem status indicators
 
 - Check if attitude is coming: In the AceinnaNav Control Software, check if the Attitude Mode is fine in the Navigation Information dialog (shown in Figure 9).
 
@@ -123,7 +141,7 @@ Users can check the following to see if your system is working properly. The pro
    :scale: 50 %
    :align: center
 
-   Figure 9 Attitude Mode
+   Figure 10 Attitude Mode
 
 If the Attitude Mode is invalid, place the system under open sky and check if satellite signal is enough with the signal panel of the software. Under open sky, there is usually 10 to 20 satellites for each antenna in the signal panel.
 
@@ -133,7 +151,7 @@ If the Attitude Mode is invalid, place the system under open sky and check if sa
    :scale: 50 %
    :align: center
 
-   Figure 10 RTK Mode
+   Figure 11 RTK Mode
 
 .. figure:: media/installation/NTRIP_indicator.png
    :scale: 50 %
