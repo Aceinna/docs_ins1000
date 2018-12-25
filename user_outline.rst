@@ -6,7 +6,8 @@ Set Up & Software Guide
 
 This guide shows how to set up and install the INS1000 rover, and use the GUI. Please read it carefully.
 
-AceinnaNav Control Software (ACS) is a graphical user interface for the AceinnaNav integrated navigation system. It displays continuous position, velocity, attitude, and trajectory information from the system. Additionally, it also provides tools to configure the system and log output data from the system.
+AceinnaNav Control Software (ACS) is a graphical user interface for the AceinnaNav integrated navigation system. It displays continuous position, velocity, attitude, and trajectory information from the system. Additionally, it also provides tools to configure the system and log output data from the system. 
+AceinnaNav version 0.19.4.8, https://www.aceinna.com/userfiles/files/Software/Inertial-System/ACS.zip
 
 2. Installation Guide
 ------------------------

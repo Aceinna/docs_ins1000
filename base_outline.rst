@@ -34,7 +34,8 @@ This section give you insight on configuring the INS1000 Base Station Software. 
 3.1 Configure
 ~~~~~~~~~~~~~
 
-Locate the GNSS basestation software.
+Locate the GNSS basestation software. 
+Application pGnssBase, https://www.aceinna.com/userfiles/files/Software/Inertial-System/ACS.zip
 
 - Run “pGnssBase.jar” software.
 - Open “Com Port Settings” Window.
