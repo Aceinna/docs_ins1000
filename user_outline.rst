@@ -288,7 +288,17 @@ The system internally stores the raw sensor data and navigation data, of which t
 
 Where “wwww” and “ssssss” correspond to the GPS week number and seconds of the week at the start of the mission.
 
-Users can download the internal data using any ftp client.
+User could download the internal data using any ftp client following the next steps:
+
+- Set the computer Ethernet IP address as 192.168.100.xxx where xxx can be any number from 2 to 254, except 97, because 192.168.100.97 used as the rover ip address.
+    .. figure:: media/rover/ip_setting.png
+       :scale: 45 %
+       :align: center
+    
+       Figure 23: pc ip address setting
+       
+- After finishing the connection and IP settings, turn on the system. Use an FTP client to connect the system using the following information, Host name: 192.168.100.97,Port number: 2100,User name: ftp,Password: ftppw. After connection successfully, user could see the raw data and navigation data in the FTP client.
+
 
 10. web application
 ------------------------
@@ -314,7 +324,7 @@ The table above is data format of python drive, and could be found in json file(
    :scale: 45 %
    :align: center
 
-   Figure 22: python serial tool usage
+   Figure 23: python serial tool usage
 
 User could run the python script and then upload data to web application user interface,
 for the web application ui, https://developers.aceinna.com/maps
@@ -323,7 +333,7 @@ for the web application ui, https://developers.aceinna.com/maps
   :scale: 38 %
   :align: center
 
-  Figure 23: web application usage
+  Figure 24: web application usage
 
 
 Press the button(Live Time Plot) on the web application ui, the image of live path of the rover station is shown on the screen. Meanwhile, the data will be logged synchronously in folder: python-ins1000-master->data.  
@@ -332,7 +342,7 @@ Press the button(Live Time Plot) on the web application ui, the image of live pa
  :scale: 50 %
  :align: center
 
- Figure 24: real time path demo
+ Figure 25: real time path demo
 
 
 
