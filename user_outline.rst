@@ -281,23 +281,23 @@ The user can send a static heading event message to initialize the inertial navi
 9. Internal Data Download
 ---------------------------
 
-The system internally stores the raw sensor data and navigation data, of which the naming convention is as follows:
+The rover station system stores the raw sensor data and navigation data, and the file naming convention as follows:
 
 - Raw sensor data: raw_wwww_ssssss.dat
 - Navigation data: nav_wwww_ssssss.dat
 
-Where “wwww” and “ssssss” correspond to the GPS week number and seconds of the week at the start of the mission.
+Where “wwww” and “ssssss” corresponding to the GPS week number and seconds of the week at the start of the mission.
 
 User could download the internal data using any ftp client following the next steps:
 
-- Set the computer Ethernet IP address as 192.168.100.xxx where xxx can be any number from 2 to 254, except 97, because 192.168.100.97 used as the rover ip address.
+- Set the computer Ethernet IP address as 192.168.100.xxx where xxx could be any number from 2 to 254, except 97, because the address 192.168.100.97 used as the rover ip address.
     .. figure:: media/rover/ip_setting.png
        :scale: 45 %
        :align: center
     
        Figure 23: pc ip address setting
        
-- After finishing the connection and IP settings, turn on the system. Use an FTP client to connect the system using the following information, Host name: 192.168.100.97,Port number: 2100,User name: ftp,Password: ftppw. After connection successfully, user could see the raw data and navigation data in the FTP client.
+- Power on the rover station system, then use a FTP client in PC side to connect the system following the configurations, Host name: 192.168.100.97,Port number: 2100,User name: ftp,Password: ftppw. After connection setup successfully, user could see the raw data and navigation data in the FTP client.
 
 
 10. web application
