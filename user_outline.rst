@@ -119,7 +119,7 @@ Basic user configuration dialog is used to set up the orientation of the navigat
 
 Basic user configuration can be opened by choosing “System > Basic User Configuration”. The interface is shown in Figure 9.
 
-.. figure:: media/rover/Set_up_the_orientation_of_the_navigation_system.PNG
+.. figure:: media/rover/Set_up_the_orientation_of_the_navigation_system.png
    :scale: 100 %
    :align: center
 
@@ -129,7 +129,7 @@ The first step is to set up the orientation of the sensor relative to the vehicl
 
 For a vehicle, the user body frame is defined in Figure 10. And IMU frame is marked on the case.
 
-.. figure:: media/rover/User_body_frame_definition.PNG
+.. figure:: media/rover/User_body_frame_definition.png
    :scale: 100 %
    :align: center
 
@@ -137,7 +137,7 @@ For a vehicle, the user body frame is defined in Figure 10. And IMU frame is mar
 
 Next step is to setup the position of the antennas (shown in Figure 11). The user needs to measure the coordinates of the two antennas in the user body frame with the origin at the case top center. And then input the coordinates into the dialog. The user also needs to measure the distance between two antenna centers and input the measurement into the dialog.
 
-.. figure:: media/rover/Set_up_the_position_of_the_two_antennas.PNG
+.. figure:: media/rover/Set_up_the_position_of_the_two_antennas.png
    :scale: 100 %
    :align: center
 
@@ -145,7 +145,7 @@ Next step is to setup the position of the antennas (shown in Figure 11). The use
 
 The final step is to choose the max output rate and turn on/off output messages (shown in Figure 12). Max output rate is the output rate of the compact navigation message (message 13). The user can adjust the data rate of this message. The detailed definition and rate of all messages can be found in Aceinna Reference Manual.
 
-.. figure:: media/rover/Choose_output_rate_and_output_messages.PNG
+.. figure:: media/rover/Choose_output_rate_and_output_messages.png
    :scale: 100 %
    :align: center
 
@@ -156,7 +156,7 @@ The final step is to choose the max output rate and turn on/off output messages 
 
 Advanced user configuration dialog contains more detailed configurations of the system. To open the dialog, the user chooses “System > User Configure” from the menu (shown in Figure 13). The available configurations are shown below. 
 
-.. figure:: media/rover/User_configuration_menu.PNG
+.. figure:: media/rover/User_configuration_menu.png
    :scale: 100 %
    :align: center
 
