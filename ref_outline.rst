@@ -7,7 +7,7 @@ Reference Manual
 INS1000 is an integrated navigation system consisting of an inertial measurement unit (IMU) and other sensors. Thus it can output continuously the position, velocity and attitude information of the vehicle. A dual-antenna GNSS receiver is used as the primary aiding sensor. Also supported is a distance measurement indicator (DMI) which can be attached to a wheel of the vehicle/robot to measure the rotation rate of the wheel. Integration of a DMI would give an improved solution in challenging environments: urban canyons, tunnels or indoor. This document explains how to use the system.
 
 2. The IMU Frame and the Body Frame 
-------------------------
+------------------------------------
 The IMU frame is the frame in which the IMU’s measurement output is generated. The direction of the axes of an IMU can be identified using the accelerometer signal. When an accelerometer is placed in upward direction on a level surface, its output should be approximately 9.8 :math:`m/s^{2}`.On the other hand, if it is place in downward direction, the output should be -9.8 :math:`m/s^{2}`. The positive direction of all three axes of an IMU can be identified this way.
 
 The body frame is the frame in which the inertial navigation solution is generated. The center of the IMU frame coincides with that of the body frame. However, there can be differences in the attitude between the two frames due to physical limitations in the installation of the IMU. For a vehicle, the forward-right-down is typically the body frame of choice. Thus, there will be a rotation matrix :math:`C_{IMU}^{b}` to transform the IMU measurements to the body frame and, for the example below, it is written as
@@ -18,9 +18,9 @@ The body frame is the frame in which the inertial navigation solution is generat
     c_{21}& c_{22} & c_{23}\\ 
     c_{31}& c_{32} & c_{33}
     \end{bmatrix}=\begin{bmatrix}
-    0 & 1 & 0\\ 
-    -1 & 0 & 0 \\ 
-    0 & 0 & 1
+    1 & 0 & 0\\ 
+    0 & -1 & 0 \\ 
+    0 & 0 & -1
     \end{bmatrix}
 
 .. figure:: media/ref/The_IMU_frame_and_the_body_frame.png
@@ -36,7 +36,7 @@ The body frame is the frame in which the inertial navigation solution is generat
 +----------+----------+----------+--------------------------+
 | Forward  | Left     | Up       | [1,0,0; 0,-1,0; 0,0,-1]  |
 +----------+----------+----------+--------------------------+
-| Forward  | Down     | Left     | [1,0,0; 0,-1,0; 0,0,-1]  |
+| Forward  | Down     | Left     | [1,0,0; 0,0,-1; 0,1,0]   |
 +----------+----------+----------+--------------------------+
 | Forward  | Up       | Right    | [1,0,0; 0,0,1; 0,-1,0]   |
 +----------+----------+----------+--------------------------+
@@ -76,14 +76,11 @@ The body frame is the frame in which the inertial navigation solution is generat
 +----------+----------+----------+--------------------------+
 | Down     | Backward | Left     | [0,-1,0; 0,0,-1; 1,0,0]  |
 +----------+----------+----------+--------------------------+
-| Down     | Backward | Left     | [0,-1,0; 0,0,-1; 1,0,0]  |
-+----------+----------+----------+--------------------------+
 | Down     | Left     | Forward  | [0,0,1; 0,-1,0; 1,0,0]   |
 +----------+----------+----------+--------------------------+
 | Down     | Right    | Backward | [0,0,-1; 0,1,0; 1,0,0]   |
 +----------+----------+----------+--------------------------+
   Table 1: List of IMU to body frame transformation matrices
-
 
 3. Measuring Lever Arm
 ------------------------
